@@ -6,10 +6,10 @@ rancher:
   network:
     interfaces:
       eth0:
-	address: 10.0.0.121/24
-	gateway: 10.0.0.1
-	mtu: 1500
-	dhcp: false
+        address: 10.0.0.121/24
+        gateway: 10.0.0.1
+        mtu: 1500
+        dhcp: false
     dns:
       nameservers:
       - 1.1.1.1
